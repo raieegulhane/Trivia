@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assests/home_category_rules.css">
     <script src="https://kit.fontawesome.com/10a3e21499.js" crossorigin="anonymous"></script>
     
-    <title>Trivia</title>
+    <title>Trivia | Categories</title>
 </head>
 <body>
     <!------------ navbar ------------>
@@ -30,14 +30,28 @@
     </nav>
 
     <!------------ main ------------>
-    <main class="home_main flex-col flex_justify-center flex_align-middle">
-        <img class="home_img" src="/images/quiz-img.svg" alt="">
-        <h1 class="home_logo logo">TRIVIA</h1>
-        <p>Bored? Explore fun quizes on your favorite categories with Trivia.</p>
-        <a class="link-noDecoration home_btn btn btn-outline btn-cr" href="/pages/categories.html">
-            Get Started
-            <i class="fa-solid fa-angles-right"></i>
-        </a>
+    <main class="container_categories flex-col flex_align-middle">
+        <h1 class="heading heading-md txt-underline">Categories</h1>
+        <div class="categories_cards flex-row">
+            <!--  -->
+            <div class="card_container card-vr">
+                <img class="img-sq" src="/images/movies-quiz.jpg" alt="movies">
+                <h2 class="card_heading heading-xs">Movies</h2>
+                <a class="link-noDecoration btn btn-block btn-primary btn-cr flex-row flex_justify-center">See Quizes</a>  
+            </div>
+            <!--  -->
+            <div class="card_container card-vr">
+                <img class="img-sq" src="/images/books-quiz.jpg" alt="movies">
+                <h2 class="card_heading heading-xs">Books</h2>
+                <a class="link-noDecoration btn btn-block btn-primary btn-cr flex-row flex_justify-center">See Quizes</a> 
+            </div>
+            <!--  -->
+            <div class="card_container card-vr">
+                <img class="img-sq" src="/images/series-quiz.jpg" alt="movies">
+                <h2 class="card_heading heading-xs">TV Series</h2>
+                <a class="link-noDecoration btn btn-block btn-primary btn-cr flex-row flex_justify-center">See Quizes</a> 
+            </div>
+        </div>
     </main>
 
     <!------------ footer ------------>

@@ -1,0 +1,46 @@
+/* home */
+.home_main {
+    padding-top: 1rem;
+}
+
+.home_img {
+    padding-bottom: 1rem;
+    max-width: 40%;
+}
+
+.home_logo {
+    font-size: 5rem;
+}
+
+.home_btn {
+    margin: 1.25rem;
+}
+
+
+
+/* categories */
+.container_categories {
+    max-width: 75%;
+    padding: 1rem 0;
+    margin: auto;
+}
+
+.categories_cards {
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.card_container {
+    background-color: var(--gray2);
+    width: 300px;
+    border-radius: var(--br-sq);
+}
+
+.card_container:hover {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1);
+}
+
+.card_heading {
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+/* navbar */
+.navbar {
+    padding: 0 2rem 1rem;
+    border-bottom: 1px solid var(--gray1);
+    margin: 1rem auto;
+}
+
+.nav_list-primary {
+    padding-left: 2rem;
+}
+
+.nav_btn-link:hover {
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: 2px solid var(--primary);
+    transition: 1s ease;
+}
+
+.nav_list-secondary {
+    gap: 1rem;
+}
+
+.nav_icon {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.nav_icon:hover {
+    color: var(--primary);
+}
+
+
+
+/* footer */
+.footer {
+    padding: 0.75rem;
+    border-top: 1px solid var(--gray1);
+    margin-top: 2rem;
+}

@@ -5,6 +5,7 @@
 /* stylesheets */
 @import url("https://matrixui.netlify.app/assets/stylesheet.css");
 @import url("/assests/buttons.css");
+@import url("/assests/navbar_footer.css");
 
 
 /* variables */
@@ -14,20 +15,39 @@
     --text-font: 'Poppins', sans-serif;
 
     /* colors */
-    --primary: #ac77e4;
+    --primary: #d5a6f1;
     --black: #222;
     --white: #eee;
-    --gray: #333;
+    --gray1: #333;
+    --gray2: #444;
+    --gray3: #999;
     --red: #fc185d;
     --green: #01ca8a;
     --yellow: #ffa402;
-    --primary-hover: #8854c0;
+    --primary-hover: #c987f0;
 
 }
 
 
-/* general */
+/* styles */
 body {
     background-color: var(--black);
     color: var(--white);
+}
+
+.logo {
+    color: var(--primary);
+    font-family: var(--logo-font);
+    font-size: 2rem;
+}
+
+.heading {
+    color: var(--white);
+    font-family: var(--text-font);
+    text-decoration-color: var(--primary);
+    /* margin: auto; */
+}
+
+.txt-gray {
+    color: var(--gray3);
 }
