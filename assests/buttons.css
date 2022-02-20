@@ -1,0 +1,27 @@
+.btn {
+    border-color: var(--primary);
+}
+
+.btn:hover {
+    border-color: var(--primary-hover);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-outline,
+.btn-link {
+    color: var(--primary);
+}
+
+.btn-outline:hover,
+.btn-link {
+    color: var(--primary-hover);
+}
+

@@ -1,8 +1,10 @@
-@import url("https://matrixui.netlify.app/assets/stylesheet.css");
-
-
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar+One&display=swap');
+
+
+/* stylesheets */
+@import url("https://matrixui.netlify.app/assets/stylesheet.css");
+@import url("/assests/buttons.css");
 
 
 /* variables */
@@ -12,11 +14,20 @@
     --text-font: 'Poppins', sans-serif;
 
     /* colors */
-    --primary: #8854c0;
-    --black: #111;
+    --primary: #ac77e4;
+    --black: #222;
     --white: #eee;
     --gray: #333;
     --red: #fc185d;
     --green: #01ca8a;
     --yellow: #ffa402;
+    --primary-hover: #8854c0;
+
+}
+
+
+/* general */
+body {
+    background-color: var(--black);
+    color: var(--white);
 }
