@@ -1,0 +1,62 @@
+.container_result {
+    width: 40%;
+    margin: 2rem auto;
+}
+
+.result_img {
+    max-width: 60%;
+}
+
+.result_heading {
+    text-decoration-color: var(--primary);
+    margin: 3rem;
+}
+
+.answerkey_container {
+    gap: 2rem;
+}
+
+.que {
+    text-align: justify;
+    font-size: 1.25rem;
+    padding: 0 1rem;
+}
+
+.options_list {
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.option_btn {
+    background-color: var(--gray2);
+    color: var(--gray3);
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: var(--br-cr);
+    margin: 0.25rem auto;
+    gap: 2rem;
+}
+
+.ans-correct {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.ans-wrong {
+    background-color: var(--red);
+    color: var(--black);
+}
+
+.score_display {
+    background-color: var(--primary);
+    color: var(--black);
+    padding: 2rem 5rem;
+    border-radius: var(--br-cr);
+    margin: 3rem;
+}
+
+.btn_result {
+    margin-top: 3rem;
+}
