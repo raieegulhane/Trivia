@@ -20,20 +20,18 @@
 
 /* categories */
 .container_categories {
-    max-width: 75%;
     padding: 1rem 0;
     margin: auto;
 }
 
 .categories_cards {
-    width: 100%;
-    justify-content: space-evenly;
     padding: 2rem;
+    gap: 2.5rem;
 }
 
 .card_container {
     background-color: var(--gray2);
-    width: 300px;
+    width: 275px;
     border-radius: var(--br-sq);
 }
 
@@ -43,4 +41,31 @@
 
 .card_heading {
     margin: auto;
+}
+
+
+
+/* rules */
+.container_rules {
+    padding: 3rem 2rem;
+}
+
+.rules_img {
+    max-width: 20%;
+    margin-bottom: 2rem;
+}
+
+.rules_list {
+    padding: 1.5rem 2rem 3rem 2rem;
+    gap: 1rem;
+}
+
+.rule {
+    color: var(--white);
+    font-size: 1.25rem;
+    gap: 1rem;
+}
+
+.container_btn_rules {
+    gap: 3rem;
 }

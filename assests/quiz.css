@@ -1,0 +1,88 @@
+/* progress bar */
+.container_progress {
+    background-color: var(--primary);
+    padding: 3px;
+    border-radius: 0 var(--br-cr) var(--br-cr ) 0;
+    margin: 0.5rem 0;
+}
+
+.progress1 {
+    width: 20%;
+}
+
+.progress2 {
+    width: 40%;
+}
+
+.progress3 {
+    width: 60%;
+}
+
+.progress4 {
+    width: 80%;
+}
+
+.progress5 {
+    width: 100%;
+}
+ 
+.progress_icon {
+    color: var(--black);
+    font-size: 1.25rem;
+    padding-right: 0.25rem;
+}
+
+
+/* main */
+.container_quiz {
+    max-width: 40%;
+    margin: 3rem auto;
+}
+
+.quiz_header {
+    width: 100%;
+    padding-bottom: 1.25rem;
+    gap: 1rem;
+}
+
+.quiz_heading {
+    text-decoration-color: var(--primary);
+    margin: auto;
+}
+
+.question {
+    padding: 3rem;
+    border: 3px solid var(--primary);
+    border-radius: var(--br-cr);
+    margin-bottom: 1rem;
+}
+
+.options_list {
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.option_btn {
+    background-color: var(--gray2);
+    width: 100%;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: var(--br-cr);
+    margin: 1rem auto;
+    gap: 2rem;
+}
+
+.option_btn:hover {
+    background-color: var(--primary);
+}
+
+.option_btn:focus {
+    background-color: var(--primary-hover);
+    color: var(--black);
+}
+
+.container_btn_quiz {
+    width: 100%;
+}
+

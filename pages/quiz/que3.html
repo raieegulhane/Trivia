@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/assests/quiz.css">
+    <script src="https://kit.fontawesome.com/10a3e21499.js" crossorigin="anonymous"></script>
+    
+    <title>Trivia | Quiz</title>
+</head>
+<body>
+    <!------------ progress bar ------------>
+    <div class="container_progress progress3 flex-row flex_justify-end">
+        <i class="fa-solid fa-ghost progress_icon"></i>
+    </div>
+
+    <!------------ main ------------>
+    <main class="container_quiz flex-col flex_align-middle">
+        <div class="quiz_header flex-col">
+            <h1 class="quiz_heading txt-underline">Quiz Title</h1>
+            <div class="flex-row flex_justify-sa">
+                <p>Question: 3/5</p>
+                <p>Score: 0/25</p>
+            </div>
+        </div>
+        <p class="question txt-bold">
+            Cat ipsum dolor sit amet, destroy dog ask for petting. Gimme attention?
+        </p>
+        <ul class="options_list list-noBullets">
+            <li class="option">
+                <button class="option_btn btn flex-row flex_justify-center">
+                    Option A
+                </button>
+            </li>
+            <li class="option">
+                <button class="option_btn btn flex-row flex_justify-center">
+                    Option B
+                </button>
+            </li>
+            <li class="option">
+                <button class="option_btn btn flex-row flex_justify-center">
+                    Option C
+                </button>
+            </li>
+            <li class="option">
+                <button class="option_btn btn flex-row flex_justify-center">
+                    Option D
+                </button>
+            </li>
+        </ul>
+        <div class="container_btn_quiz flex-row flex_justify-sa">
+            <a class="btn btn-outline btn-cr link-noDecoration" href="/pages/quiz/que2.html">
+                <i class="fa-solid fa-angles-left"></i>
+                Back
+            </a>
+            <a class="btn btn-outline btn-cr link-noDecoration" href="/pages/quiz/que4.html">
+                Next
+                <i class="fa-solid fa-angles-right"></i>
+            </a>
+        </div>
+    </main>
+
+    <!------------ footer ------------>
+    <footer class="footer flex-col flex_align-middle">
+        <p class="txt-gray txt-sm">Made with &lt;/&gt; by Raiee</p>
+        <p class="txt-gray txt-sm">&copy; 2022, Trivia</p>
+    </footer>
+
+    
+</body>
+</html>
