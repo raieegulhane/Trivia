@@ -20,20 +20,18 @@
 
 /* categories */
 .container_categories {
-    max-width: 75%;
     padding: 1rem 0;
     margin: auto;
 }
 
 .categories_cards {
-    width: 100%;
-    justify-content: space-evenly;
     padding: 2rem;
+    gap: 2.5rem;
 }
 
 .card_container {
     background-color: var(--gray2);
-    width: 300px;
+    width: 275px;
     border-radius: var(--br-sq);
 }
 
