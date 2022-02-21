@@ -42,3 +42,30 @@
 .card_heading {
     margin: auto;
 }
+
+
+
+/* rules */
+.container_rules {
+    padding: 3rem 2rem;
+}
+
+.rules_img {
+    max-width: 20%;
+    margin-bottom: 2rem;
+}
+
+.rules_list {
+    padding: 1.5rem 2rem 3rem 2rem;
+    gap: 1rem;
+}
+
+.rule {
+    color: var(--white);
+    font-size: 1.25rem;
+    gap: 1rem;
+}
+
+.container_btn_rules {
+    gap: 3rem;
+}
