@@ -1,6 +1,7 @@
 # Trivia
 
 - TRIVIA is a quiz app, where quizes on different categories are available
+- Check out the live demo [here](https://trivia-by-raiee.netlify.app/)
 - Currently frontend is completed.
 - Built with plain HTML5 and CSS.
 
